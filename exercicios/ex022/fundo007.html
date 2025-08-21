@@ -6,6 +6,8 @@
     <title>Document</title>
     <style>
         #container {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
             height: 500px;
             background-color: purple;
             padding: 10px;
@@ -13,11 +15,19 @@
         }
 
         #conteudo{
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
             position: absolute;
             height: 200px;
             width: 400px;
             /* margin: auto; so serve pro alinhamento horizontal */
             background-color: yellow;
+
+
+            /* quando deixamos a position: absolute; podemos usar as seguintes propriedadees para mover o conteudo  */
+
+            left: 50%; /* e a distacia entre o conteudo e a lateral esquerda */
+            top: 50%; /* e a dsitacia do conteudo para o topo do site  */
 
         }
     </style>
