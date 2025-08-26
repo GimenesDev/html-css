@@ -8,7 +8,7 @@
         #container {
             background-image: url(imagens/target001.png);
             background-size: 100% 100%;
-            height: 500px;
+            height: 96vh;
             background-color: purple;
             padding: 10px;
             position: relative;
@@ -25,9 +25,14 @@
 
 
             /* quando deixamos a position: absolute; podemos usar as seguintes propriedadees para mover o conteudo  */
-
+            /* isso era centralizar o cacnto esquerdo superior do conteudo  */
             left: 50%; /* e a distacia entre o conteudo e a lateral esquerda */
             top: 50%; /* e a dsitacia do conteudo para o topo do site  */
+
+            /* para centralizar o centro do conteudo ao centro da tela */
+            transform: translate(-50%, -50%);
+
+    
 
         }
     </style>
